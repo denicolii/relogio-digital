@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    width: 100%;
+
+  }
+  
+  .container {
+    display: flex;
+    background-image: radial-gradient(circle, #000000 0%, #5206a9 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .clock {
+    justify-content: center;
+    font-family: 'Caesar Dressing', cursive;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+    border-radius: 3%;
+    color: #fff;
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    height: 200px;
+    width: 350px;
+  }
